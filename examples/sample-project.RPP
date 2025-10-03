@@ -1,0 +1,42 @@
+<REAPER_PROJECT 0.1 "6.70" 1678901234
+  <TRACK {12345678-1234-1234-1234-123456789012}
+    NAME "MIDI Track 1"
+    TRACKID {12345678-1234-1234-1234-123456789012}
+    <ITEM
+      POSITION 0
+      LENGTH 4
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        E 0 90 3c 60
+        E 960 80 3c 00
+        E 960 90 3e 70
+        E 1920 80 3e 00
+      >
+    >
+    <VOLENV
+      ACT 1
+      PT 0 1 0
+      PT 2 0.5 0
+      PT 4 1 0
+    >
+    <PANENV
+      ACT 1
+      PT 0 0 0
+      PT 2 -0.5 0
+      PT 4 0 0
+    >
+  >
+  <TRACK {87654321-4321-4321-4321-210987654321}
+    NAME "MIDI Track 2"
+    TRACKID {87654321-4321-4321-4321-210987654321}
+    <ITEM
+      POSITION 0
+      LENGTH 4
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        E 0 90 40 80
+        E 960 80 40 00
+      >
+    >
+  >
+>
